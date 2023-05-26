@@ -1,7 +1,15 @@
-body {
+.index {
     font-family: 'Merienda', cursive;
     text-align: center;
     width: 35%;
+    height: 40%;
+    margin:15% 30%;
+}
+
+.aboutus {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    width: 42%;
     height: 40%;
     margin:15% 30%;
 }
