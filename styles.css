@@ -1,0 +1,45 @@
+body {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    width: 35%;
+    height: 40%;
+    margin:15% 30%;
+}
+
+.button {
+    font-family: 'Merienda', cursive;
+    background-color: rgb(28, 105, 221);
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+img{
+    height: 10%;
+    width: 9%;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ol {
+    margin: 0px;
+}
+
+h2{
+    margin: 0px;
+}
