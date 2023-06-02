@@ -80,3 +80,115 @@ table,th,td{
     margin-bottom: 6%;
     margin-top: 30%;
 }
+
+#formtitle {
+    font-family: 'Halant', serif;
+    font-size: 64px;
+    margin-left: 10%;
+    padding-top: 5%;
+    
+}
+
+#formbody {
+ background-color: grey;
+}
+.form {
+    
+    
+    height: 70% ;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+    
+}
+.label {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Halant', serif;
+    font-size: 32px;
+    margin: 3% 20% 3% 10%;
+
+    padding: 0;
+    text-align: left;
+    
+    
+}
+
+.input {
+
+    font-family: 'Manrope', sans-serif;
+    width: 60%;
+    height: 40px;
+    font-size: 16px ;
+    border-radius: 4px;
+    border-width: 0.5px;
+    padding: 15px;
+    
+
+}
+
+.label>select {
+        font-family: 'Manrope', sans-serif;
+        width: 64.5%;
+        height: 70px;
+        border-radius: 4px;
+        border-width: 0.5px;
+        font-size: 16px ;
+        
+      
+    
+}
+.formbutton  {
+    
+    height: 70px;
+    width:64.5%;
+    background-color: #155EEF;
+    color: white;
+    border-radius: 4px;
+    padding: 0;
+    margin: 0;
+    border-width: 0.5px;   
+}
+
+.buttondiv {
+    text-align: end;
+    margin: 0% 20% 10% 10%;
+    padding: 0 0 5% 0;
+    
+}
+
+legend{
+
+ 
+
+}
+fieldset {
+    margin: 3% 20% 3% 10%;
+    border: 0;
+    padding: 0;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.skills,.genders{
+    font-family: 'Halant', serif;
+    font-size: 32px;
+    width: 35%;
+}
+
+
+
+div>label{
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px ;
+    
+}
+
+.skill,.gender {
+    height:24px; 
+    width:24px;
+    margin: 8px;
+ 
+}

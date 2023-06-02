@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="formbody">
+  
+
+    <Form action="" method="post" class="form">
+        <h1 id="formtitle">Contact Form</h1>
+        
+        <label for="name" class="label">Name:<input class="input" type="text" name="name" placeholder="Enter your Name" required></label>
+        <label for="username" class="label">Username:<input class="input" type="text" placeholder="Enter your Username"required name="username" ></label>
+        <label for="password" class="label">Password:<input class="input" type="password" placeholder="Enter your Password" required name="password" ></label>
+        <label for="retypepassword" class="label">Re-type Password:<input class="input" type="password" placeholder="Enter your Password" required name="retypepassword" ></label>
+   
+           
+        <fieldset >
+            <label class="genders">Gender:</label>
+            <div class="gendersdiv">
+            <label for="gender" ><input class="gender" type="radio" required name="gender" id="male">Male</label>
+            <label for="gender" ><input class="gender" type="radio" required name="gender" id="female">Female</label>
+        </div>
+        </fieldset>
+      
+        
+        <fieldset  >
+            <label class="skills">Techie Skills: </label>
+            <div class="skillsdiv">
+        <label for="HTML" ><input class="skill" type="checkbox" required name="techieskills" id="HTML" >HTML</label>
+        <label for="CSS" ><input class="skill" type="checkbox" required name="techieskills" id="CSS">CSS</label>
+        <label for="JavaScript" ><input class="skill" type="checkbox" required name="techieskills" id="JavaScript" >JavaScript</label>
+         </div>
+           
+        </fieldset>
+    
+
+        <label for="number" class="label">Phone Number:<input class="input" type="tel" placeholder="Enter your Mobile Number" required name="number" ></label>
+        <label for="email" class="label">Email:<input class="input" type="email" placeholder="Enter your Email Address" required name="email" ></label>
+        <label for="college" class="label">College:
+            <select name="college" id="college" required placeholder="Select a College" >
+                <option value="College 1">College 1</option>
+                <option value="College 2">College 2</option>
+                <option value="College 3">College 3</option>
+                <option value="College 4">College 4</option>
+                <option value="College 5">College 5</option>
+                <option value="College 6">College 6</option>
+            </select>
+            </label>
+        <br>
+            <div class="buttondiv"><button type="submit" class="formbutton">Submit</button></div>
+        
+
+    </Form>
+</body>
+</html>
